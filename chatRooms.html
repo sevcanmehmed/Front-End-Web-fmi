@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./chatRooms.css">
+    <script type="module" src="./rooms.js" defer></script>
+</head>
+<body>
+    <div id="create_div">
+       <span id="create_room">Create room</span>
+       <input id="inp" placeholder="Room name">
+   </div>
+    <div id="wrapper">
+        <h1>Chat rooms</h1>
+        <ol id="olList">
+          <li class="subscribed">
+            <div class="list" subscribed>
+                <span class="room-name">General</span>
+                <button class="subscribed-btn">Subscribed</button>
+                <button class="invite">Invite</button>
+                <button class="go"><a href="./currentRoom.html"> Go to room</a></button>
+            </div>
+          </li>
+        
+        <li>
+            <div class="list">
+            <span class="room-name">Girls</span>
+              <button class="subscribe">Subscribe</button>
+              <button class="invite">Invite</button>
+              <button class="go">Go to room</button>
+            </div>
+        </li>
+        </ol>
+     </div>
+
+
+</body>
+</html>

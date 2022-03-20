@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meow-chat Log in </title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./login.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="login">
+            <img id="chat-icon" src="./icon.png" alt="icon"/>
+            <h1>Meow-Chat <br> Login Form</h1>
+        </div>
+        <hr>
+        <section class="login-wrapper">
+            <label for="em"><b>E-mail</b></label>
+            <input type="text" placeholder="E-mail" name="em" id="em" class="em_log" required>
+            <span id="email-info"> </span>
+          <br>
+          <div class="psw-wrapper">
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter password" name="psw" id="psw" class="psw_log" required/>
+          <span  id="psw-information">  </span>
+        </div>
+           <button id="login-btn"></button>
+        </section>
+
+        <footer>
+            <span>Don't have an account? <a href="./registration.html">Create a Meow-Chat account</a></span>
+        </footer> 
+
+
+    </div>
+
+</body>
+</html>

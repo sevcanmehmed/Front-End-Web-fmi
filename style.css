@@ -1,0 +1,96 @@
+body{
+    background: linear-gradient(-100deg, #A2F2F1 40%,#B19AFE 100%);
+}
+h1{
+    color: rgb(211, 137, 0);
+    font-weight:bolder;
+}
+* {
+    box-sizing: border-box;
+    font-family:cursive
+}
+label{
+    margin-left: 0 0 5px 5px;
+}
+[incorrect]{
+    color:red;
+}
+[correct]{
+    color:green;
+}
+.valid{
+    color: green;
+}
+
+span{
+    color:red;
+}
+.hidden{
+    display: none;
+}
+#psw-information{
+    font-size: 12px;
+}
+.registration, .login{
+    display: flex;
+    flex-direction: row;
+    margin:0;
+    padding:0;
+    font-size: 14px;
+    width: 100%;
+}
+.container{
+    background-color: rgb(161, 235, 235);
+    padding: 16px;
+    width:40%;
+    border: 3px solid goldenrod;
+    margin:auto;
+    box-shadow:20px 20px 20px 0px darkslategray;
+    display: flex;
+    flex-direction: column;
+}
+#chat-icon{
+    width: 20%;
+    margin-right: 15px; 
+}
+input[type="text"],
+input[type="password"]{
+     
+    width:100%;
+    padding: 5px;
+    margin: 2px 0 7px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(105, 221, 221);
+    border-bottom: 2px solid black;
+}
+.btn, #login-btn{
+    border: 3px solid rgb(93, 93, 190);
+    color:black;
+    background-color: rgb(137, 203, 245);
+    padding:7px;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.home-page .btn a{
+    text-decoration: none;
+}
+
+.btn:hover, #login-btn:hover {
+    background-color: orange;
+    color: white;
+    border:none;
+}
+/*
+login css
+*/
+.login-Wrapper{
+    align-items: center;
+}
+
+
+

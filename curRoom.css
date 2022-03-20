@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(-100deg, #A2F2F1 40%,#B19AFE 100%);
+}
+#wrapper{
+    width: 40%;
+    border: 3px solid rgb(199, 1, 199);
+    margin:auto;
+    padding: 15px;
+    box-shadow:20px 20px 20px 0px darkslategray;
+}
+#msg-input{
+    font-size: 22px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 10px;
+}
+
+
+
+ul li{
+    width: 100%;
+    border:3px solid rgb(199, 1, 199);
+    border-radius: 10px;
+    padding: .5rem;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+#message-list{
+    list-style: none;
+    margin-left: -42px;
+}
+#btn-rooms, #your-rooms{
+    font-size: 22px;
+    border-radius: 10px;
+    margin-left: -9rem;
+    border-style: none;
+    background:#A2F2F1;
+} 
+#your-rooms{
+  margin-left: -15rem;
+}
+a{
+    text-decoration: none;
+}

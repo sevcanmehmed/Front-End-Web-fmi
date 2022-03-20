@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="curRoom.css">
+    <script  type="module" src="./curRoom.js" defer></script>
+</head>
+<body>
+ 
+    <div id="wrapper">
+      <div id="all-rooms">
+        <button id="btn-rooms"><a href="./chatRooms.html">All rooms</a></button>
+        <button id="your-rooms">Your rooms</button>
+      </div>
+      <h1 id="rName">General</h1>
+         <div id="notification">
+            <a href="#" class="notification">
+            <span>Inbox</span>
+            <span class="badge">3</span>
+            </a>
+         </div>
+         <input id="msg-input" type="text" placeholder="Type your message">
+       <div id="msg-wrapper">
+         <ul id="message-list">
+           <!--
+             <div class="msg-info">
+        <span class="username"><b>${message.username}</b></span>
+        <span class="date">${message.Date}</span>
+        </div> 
+        <span class="msg-text">${message.message}</span>
+  `
+           -->
+         </ul>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooms</title>
+    <link rel="stylesheet" href="rooms.css">
+</head>
+<body>
+    <script type="module" src="./rooms.js" defer></script>
+
+    <div id="wrapper">
+
+        <div id="create-room" >
+            <button id="new_room" onclick="createRoom()">Create room</button>     
+           </div> 
+        <div class="select-room">
+            <h1>Chat rooms</h1>
+
+            <select id="rooms" onchange="changeSelectedValue()">
+                <option>General</option>
+                
+
+            </select>
+            <div id="General" class="room">
+                <h1>General</h1>
+            </div>
+       
+
+     
+        </div>
+    </div>
+
+</body>
+</html>

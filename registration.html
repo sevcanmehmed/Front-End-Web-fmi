@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./registration.js" defer></script>
+</head>
+<body>s
+    <div class="container">
+        <div class="registration">
+        <img id="chat-icon" src="./icon.png" alt="icon"/>
+         <h1>Meow-Chat Registration Form</h1>
+        </div>
+        <hr/>
+        <div class="home-page">
+            <button class="btn"><a href="./login.html">Home</a></button>
+           <!-- <button class="btn">Registration</button>-->
+        </div>
+        <hr/>
+        <label for="user"><b>Username</b><span> * </span></label>
+        <input type="text" placeholder="Username" name="user" id="user" required/>
+          <span id="user-info"></span>
+
+        <label for="em"><b>E-mail</b><span> * </span></label>
+        <input type="text" placeholder="E-mail" name="em" id="em" class="em_reg" required/>
+        <span id="email-info"></span>
+
+        <div class="psw-wrapper"> 
+        <label for="psw"><b>Password</b><span> * </span></label>
+        <input type="password" placeholder="Enter password" name="psw" id="psw" class="psw_reg" required/>
+        <span  id="psw-information"> A password should be alphanumeric. <br>
+   First letter of the password should be capital.
+   Password must contain a special character (@, $, !, &, etc). 
+   Password length must be greater than 8 characters.`
+        </span>
+    </div>
+
+        <label for="cpsw"><b>Confirm Password</b><span> * </span></label>
+        <input type="password" placeholder="Confirm password" name="cpsw" id="cpsw" required/>
+        <span id="confirm-psw"></span>
+        <hr/>
+
+        <button id="regBtn" class="btn"></button>
+
+
+    </div>
+</body>
+</html>
